@@ -23,5 +23,20 @@
     "tailwindcss": "^3.3.0",
     "eslint": "^8",
     "eslint-config-next": "14.1.0"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/error0x0000001/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Umashankar Pandey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/error0x0000001/portfolio/issues"
+  },
+  "homepage": "https://github.com/error0x0000001/portfolio#readme"
 }
