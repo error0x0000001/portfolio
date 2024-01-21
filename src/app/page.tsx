@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function Home() {
  
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="flex flex-col justify-center h-screen">
       {/* header */}
       <header className="flex w-full p-5 justify-between text-sm text-gray-700">
         {/* left */}
@@ -30,7 +30,7 @@ export default function Home() {
       
       {/* body */}
 
-      <form  className="flex flex-col items-center mt-40 flex-grow w-4/5">
+      <form  className="flex flex-col items-center mt-40 flex-grow">
       <Image
           src="/profile-pic.png"
           alt="profile-pic"
@@ -48,8 +48,9 @@ export default function Home() {
       
       <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0
       sm:flex-row sm:space-x-4">
+        {/* <button>Project</button> */}
         <button className="btn">Google Search</button>
-        <button className="btn">I'm feeling Lucky</button>
+        <button className="btn">Download resume</button>
       </div>
 
 
@@ -57,6 +58,7 @@ export default function Home() {
 
 
       {/* footer */}
+      <p className="items-start text-xs lg:text-sm text-gray-600 p-5">India</p>
       <Footer/>
     
     </div>

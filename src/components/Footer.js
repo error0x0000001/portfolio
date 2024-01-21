@@ -1,35 +1,22 @@
-import { GlobeIcon } from "@heroicons/react/solid";
+import React from 'react';
 
-
-function Footer() {
+export default function Footer() {
   return (
-    <footer className=" grid w-full divide-y-[1px] divide-gray-300 bg-gray-100 text-sm text-gray-500 ">
-        <div className="px-8 py-3">
-            <p>India</p>
-        </div>
-        <div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 grid-flow-row-dense px-8 py-3">
-            <div className="flex justify-center items-center md:col-span-2
-            lg:col-span-1 lg:col-start-2">
-                <GlobeIcon className="h-5 mr-1 text-green-700"/>
-                Carbon neutral since 2007
-            </div>
-            <div className="flex justify-center space-x-8 whitespace-nowrap md:justify-self-start">
-                <p>About</p>
-                <p>LinkedIn</p>
-                <p>GitHub</p>
-            </div>
-            <div className="flex justify-center space-x-8 md:ml-auto">
-                <p>Projects</p>
-                <p>Contact</p>
-                <p>Resume</p>
-            </div>
-        </div>
-
-
-
-
+    
+    <footer className="border w-full flex justify-between p-3">
+      
+      <ul className="flex justify-start text-xs lg:text-sm text-gray-500">
+        <li className="lg:mx-2 mx-1"><a target="_blank" href="about">About</a></li>
+        <li className="lg:mx-2 mx-1"><a target="_blank" href="https://www.linkedin.com/in/batoolfatima2135/" rel="noreferrer">LinkedIn</a></li>
+        <li className="lg:mx-2 mx-1"><a target="_blank" href="https://www.youtube.com/channel/UCFlLhnJS3lXB6JATy8QFrrg" rel="noreferrer">Youtube</a></li>
+        <li className="lg:mx-2 mx-1"><a target="_blank" href="https://github.com/batoolfatima2135" rel="noreferrer">Github</a></li>
+      </ul>
+      <ul className="flex justify-end text-xs lg:text-sm text-gray-500">
+        <li className="lg:mx-2 mx-1"><a href="/work">Projects</a></li>
+        <li className="lg:mx-2 mx-1"><a href="contact">Contact</a></li>
+        <li className="lg:mx-2 mx-1"><a href="mailto:batoolfatima2135@gmail.com">Email</a></li>
+        <li className="lg:mx-2 mx-1"><a href="./Batool_Fatima_Resume.pdf" target="_blank">Resume</a></li>
+      </ul>
     </footer>
   );
 }
-
-export default Footer
