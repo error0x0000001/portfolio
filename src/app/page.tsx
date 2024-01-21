@@ -1,14 +1,12 @@
-// import Heading from '../Components/Home/Heading';
-// import Navbar from '../Components/Home/Navbar';
-// import Input from '../Components/Home/Input';
-// import Buttons from '../Components/Home/Buttons';
-// import Footer from '../Components/Home/Footer';
+import { MicrophoneIcon, ViewGridIcon } from "@heroicons/react/solid";
+import { SearchIcon } from "@heroicons/react/outline";
+import Footer from '../components/Footer'
 import Avatar from '../components/Avatar';
 import Image from 'next/image';
 export default function Home() {
  
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center h-screen">
       {/* header */}
       <header className="flex w-full p-5 justify-between text-sm text-gray-700">
         {/* left */}
@@ -24,7 +22,7 @@ export default function Home() {
 
 
         {/* icon */}
-
+    <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
         {/* avatar */}
         <Avatar url="https://qph.cf2.quoracdn.net/main-qimg-ba9341fd5e99e413f706915513491700-lq"/>
       </div>
@@ -32,7 +30,35 @@ export default function Home() {
       
       {/* body */}
 
+      <form  className="flex flex-col items-center mt-40 flex-grow w-4/5">
+      <Image
+          src="/profile-pic.png"
+          alt="profile-pic"
+          
+          width={300}
+          height={100}
+        />
+        <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200 px-5 py-3 items-center
+        sm:max-w-xl lg:max-w-2xl">
+
+      <SearchIcon className="h-5 mr-3 text-gray-500"/>
+      <input type="text" className="flex-grow focus:outline-none" />
+      <MicrophoneIcon className="h-5" />
+      </div>
+      
+      <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0
+      sm:flex-row sm:space-x-4">
+        <button className="btn">Google Search</button>
+        <button className="btn">I'm feeling Lucky</button>
+      </div>
+
+
+      </form>
+
+
       {/* footer */}
+      <Footer/>
+    
     </div>
   );
 }
