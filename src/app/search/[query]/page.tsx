@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useContext } from 'react';
-import { LinkContext } from '@/app/linksProvider.tsx';
+import { LinkContext } from '@/app/linksProvider';
 import { motion } from 'framer-motion';
 import Faq from '../../../Components/Others/Faq';
 
