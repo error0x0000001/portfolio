@@ -2,7 +2,7 @@
 
 import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
-import { LinkContext } from '../linksProvider.tsx';
+import { LinkContext } from '../linksProvider';
 import Faq from '../../Components/Others/Faq';
 
 export default function About() {
