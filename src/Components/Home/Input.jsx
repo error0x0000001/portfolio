@@ -115,7 +115,7 @@ export default function Input() {
             </a>
           </li>
           <li className="py-1">
-            <a href="contact" className="flex items-center hover:text-blue-900">
+            <a href="/contact" className="flex items-center hover:text-blue-900">
               <span className="mx-1">
                 <Image
                   src="/time.PNG"
