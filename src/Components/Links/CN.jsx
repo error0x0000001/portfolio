@@ -16,7 +16,7 @@ export default function Microverse() {
         onClick={() => toggleCollapse()}
         type="button"
       >
-        Education: My journey at Coding Ninja's
+        Education: My journey at Coding Ninja&#39;s
       </button>
       <p className="text-sm  text-gray-600">
       Coding Ninjas provides computer language courses that are used to design applications, and software, among others. 
@@ -42,7 +42,7 @@ export default function Microverse() {
 
         <ul className="list-disc list-outside">
           <li className="my-2">
-            Spent 9 month's mastering full-stack development at Coding Ninja's while simultaneously developing projects with Node.js,
+            Spent 9 month&#39;s mastering full-stack development at Coding Ninja&#39;s while simultaneously developing projects with Node.js,
             MongoDb, JavaScript, React, and Redux.
           </li>
           <li className="my-2">

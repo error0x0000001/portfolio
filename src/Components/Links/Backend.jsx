@@ -28,7 +28,7 @@ export default function Frontend() {
         } text-gray-600 rounded-md `}
       >
         <p>
-        I specialize in crafting powerful and highly functional web application backends, with a keen focus on MongoDB, Supabase, and MySQL. My expertise ensures the seamless creation of efficient backend systems. Let's dive into the realm of database mastery and create impactful solutions! 💻🚀"
+        I specialize in crafting powerful and highly functional web application backends, with a keen focus on MongoDB, Supabase, and MySQL. My expertise ensures the seamless creation of efficient backend systems. Let&#39;s dive into the realm of database mastery and create impactful solutions! 💻🚀
         </p>
 
         <div className="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-7 my-5 ">

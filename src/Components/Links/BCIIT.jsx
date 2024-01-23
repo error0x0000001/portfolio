@@ -43,7 +43,7 @@ export default function VU() {
         <ul className="list-disc list-outside">
           <b> Expected graduation: 2025</b>
           <li className="my-2">
-          Pursuing a Master's in Computer Applications (MCA) at  Banarsidas Chandiwala Institue Of Information Technology (BCIIT), I am immersed in an extensive two-year program. This curriculum provides a robust foundation in information technology, coupled with a diverse set of practical skills, shaping a comprehensive educational experience.
+          Pursuing a Master&#39;s in Computer Applications (MCA) at  Banarsidas Chandiwala Institue Of Information Technology (BCIIT), I am immersed in an extensive two-year program. This curriculum provides a robust foundation in information technology, coupled with a diverse set of practical skills, shaping a comprehensive educational experience.
           </li>
           {/* <li className="my-2">
             Learning through an online platform, which not
@@ -51,7 +51,7 @@ export default function VU() {
             excel in a flexible, technology-driven learning environment.
           </li> */}
           <li className="my-2">
-          Exploring diverse facets of computer science, my journey in the Master's in Computer Applications (MCA) program involves delving into core areas such as programming languages, data structures, algorithms, and software engineering. This educational expedition has not only broadened my understanding but also equipped me with invaluable practical skills, especially in coding, problem-solving, and a profound grasp of computer science principles.
+          Exploring diverse facets of computer science, my journey in the Master&#39;s in Computer Applications (MCA) program involves delving into core areas such as programming languages, data structures, algorithms, and software engineering. This educational expedition has not only broadened my understanding but also equipped me with invaluable practical skills, especially in coding, problem-solving, and a profound grasp of computer science principles.
           </li>
         </ul>
 

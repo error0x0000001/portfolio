@@ -18,7 +18,7 @@ export default function Contact() {
         Contact: My Contact Details
       </button>
       <p className="text-sm  text-gray-600">
-      If you share the same passion for innovative software development as I do, reach out and let's embark on an exciting adventure through lines of code together! 💻✨
+      If you share the same passion for innovative software development as I do, reach out and let&#39;s embark on an exciting adventure through lines of code together! 💻✨
       </p>
       <div
         className={`transition-all duration-300 my-5 ${
@@ -26,7 +26,7 @@ export default function Contact() {
         } text-gray-600 rounded-md `}
       >
         <p>
-        Always on the prowl for new and thrilling projects and opportunities! If you've got something fascinating to offer, feel free to reach out via email at
+        Always on the prowl for new and thrilling projects and opportunities! If you&#39;ve got something fascinating to offer, feel free to reach out via email at
   &nbsp;
           <a href="mailto:arjunpandeyy12@gmail.com" className="text-blue-700 underline">arjunpandeyy12@gmail.com</a>
           &nbsp; or simply use the handy form for a direct message. Let the collaboration begin!

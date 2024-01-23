@@ -19,7 +19,7 @@ export default function Frontend() {
         Skills: My Front-end Skills Set
       </button>
       <p className="text-sm  text-gray-600">
-      My expertise extends to HTML, CSS, and JavaScript, with a special focus on React, Redux, Next.js, and Framer Motion. This comprehensive skill set enables me to craft not only responsive and visually appealing interfaces but also dynamic and engaging user experiences. Let's bring websites to life with the perfect blend of code and creativity! 🚀💻
+      My expertise extends to HTML, CSS, and JavaScript, with a special focus on React, Redux, Next.js, and Framer Motion. This comprehensive skill set enables me to craft not only responsive and visually appealing interfaces but also dynamic and engaging user experiences. Let&#39; bring websites to life with the perfect blend of code and creativity! 🚀💻
       </p>
       <div
         className={`transition-all duration-300 my-5  ${
@@ -27,7 +27,7 @@ export default function Frontend() {
         } text-gray-600 rounded-md `}
       >
         <p>
-        With a firm grasp of the following technologies and an unwavering commitment to delivering high-quality user interfaces, I am wholeheartedly dedicated to crafting web solutions that not only meet but surpass user expectations. Let's elevate the user experience together! 🚀💻
+        With a firm grasp of the following technologies and an unwavering commitment to delivering high-quality user interfaces, I am wholeheartedly dedicated to crafting web solutions that not only meet but surpass user expectations. Let&#39;s elevate the user experience together! 🚀💻
         </p>
 
         <div className="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-8 my-5 ">
