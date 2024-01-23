@@ -1,22 +1,24 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import './globals.css';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import ProjectProvider from './projectProvider.tsx';
+import LinksProvider from './linksProvider.tsx';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Umashankar Pandey",
-  description: "Meet Umashankar, your Front-End wizard ready to tackle challenges with a laugh and a code flourish. I weave efficient web spells with the magic trio of JavaScript, React, and Redux – making applications so smooth, even Gandalf would be impressed.",
+  title: 'Batool Fatima',
+  description: 'I am Batool Fatima, a Front-End developer, ready to embark on new challenges. With a solid foundation in Front-End technologies like JavaScript, React, and Redux I excel at creating efficient Web applications.Frontend: JavaScript, React, Redux, BootstrapTools & Methods: Git, GitHub, Chrome Dev Tools.Professional: Remote Pair-Programing, Teamwork, Mentoring',
 };
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}><ProjectProvider><LinksProvider>{children}</LinksProvider></ProjectProvider></body>
     </html>
   );
 }
