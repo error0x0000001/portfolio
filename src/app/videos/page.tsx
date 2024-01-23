@@ -2,7 +2,7 @@
 
 import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
-import { ProjectContext } from '../projectProvider.tsx';
+import { ProjectContext } from '../projectProvider';
 
 export default function Page() {
   const projects = useContext(ProjectContext);
