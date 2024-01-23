@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useContext } from 'react';
-import { LinkContext } from '../linksProvider.tsx';
+import { LinkContext } from '../linksProvider';
 import { motion } from 'framer-motion';
 import Faq from '../../Components/Others/Faq';
 import Footer from '@/Components/Home/Footer.jsx';
