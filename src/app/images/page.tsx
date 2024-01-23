@@ -4,7 +4,7 @@ import React, { useContext, useState } from 'react';
 import Image from 'next/image';
 import Socials from '../../Components/Others/socials';
 import { motion } from 'framer-motion';
-import { Project, ProjectContext } from '../projectProvider.tsx';
+import { Project, ProjectContext } from '../projectProvider';
 
 export default function Page() {
   const projects = useContext(ProjectContext);
