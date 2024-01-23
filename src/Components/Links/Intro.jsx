@@ -18,7 +18,7 @@ export default function Intro() {
         My brief introducion
       </button>
       <p className="text-sm  text-gray-600">
-      In the ever-evolving realm of full stack development, I thrive with a passion for crafting innovative digital solutions. Picture constructing the digital future, one virtual brick at a time – that's the essence of what fuels my excitement!
+      In the ever-evolving realm of full stack development, I thrive with a passion for crafting innovative digital solutions. Picture constructing the digital future, one virtual brick at a time – that&#39;s the essence of what fuels my excitement!
       </p>
       <div
         className={`transition-all duration-300 my-5  ${
@@ -26,7 +26,7 @@ export default function Intro() {
         } text-gray-600 rounded-md `}
       >
         <p className="my-2">
-        👋 Hello there! I'm Batool, your extraordinary Full Stack Developer!
+        👋 Hello there! I&#39;m Umashankar, your extraordinary Full Stack Developer!
         </p>
         <p className="my-2">
           💻 With a passion for crafting innovative digital solutions, I thrive in the dynamic
