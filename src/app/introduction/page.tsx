@@ -18,7 +18,7 @@ export default function About() {
     >
       <h1 className="text-xl font-bold"> 🌟 Greetings, fabulous human! 👋 Brace yourself for a lightning-speed introduction – it's about to get professionally whimsical! 🚀</h1>
       <h1 className="text-lg font-bold text-gray-700 my-3">  I hope this video brings you joy and a sprinkle of entertainment! 🌟</h1>
-      <iframe src="https://www.youtube.com/embed/F1dPD94uVtc?si=XD5kW0UOdN7Uhzin&autoplay=1" title="Introduction" className="lg:w-full lg:h-96 md:w-full md:h-96" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+      <iframe src="https://youtu.be/Hv2XFbW1Cfw?si=xcWjLY8G0M7WD8P1" title="Introduction" className="lg:w-full lg:h-96 md:w-full md:h-96" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
       <Faq />
     </motion.div>
   );
