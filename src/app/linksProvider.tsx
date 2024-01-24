@@ -91,7 +91,11 @@ export default function LinksProvider({
         'ruby on rails', 'ror', 'backend', 'back-end', 'rubocop', 'ruby', 'tailwind', 'html', 'webpack', 'jest', 'git', 'github', 'eslint', 'stylelint'],
       data: <WorkTemplate currentProject="Fang Dental Lab" />,
     },
-   
+   {
+      id: 10,
+      keywords: ['contact', 'about', 'skills', 'work', 'message', 'email', 'touch', 'reach'],
+      data: <Contact />,
+    },
   ],
 }: {
   children: React.ReactNode;
