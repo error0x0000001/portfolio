@@ -32,7 +32,7 @@ export default function Contact() {
           &nbsp; or simply use the handy form for a direct message. Let the collaboration begin!
         </p>
         <form
-          action="https://formspree.io/f/xrgwjzdp"
+          action="https://formspree.io/f/xbjndzwr"
           method="POST"
           className="lg:w-5/6 w-full my-3"
         >
